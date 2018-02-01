@@ -183,7 +183,6 @@ function addProduct(){
             },
             function(err, res) {
               console.log("Item added to inventory! \n");
-              console.log(query.sql);
               viewProducts();
             }
           );
